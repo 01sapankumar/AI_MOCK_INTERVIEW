@@ -17,7 +17,6 @@ export async function POST(request: Request) {
         The job role is ${role}.
         The job experience level is ${level}.
         The tech stack used in the job is: ${techstack}.
-        The focus between behavioural and technicla questuins should learn towards: ${type}.
         The amount of questuins required is: ${amount}.
         Please return only the questions, without any additional text.
         The questions are going to be ready by voice assistant so do not use "/" or "*" or any other special character which might break the voice assistant.
