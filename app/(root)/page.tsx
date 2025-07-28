@@ -21,8 +21,11 @@ async function Home() {
 
   const hasPastInterviews = userInterviews?.length! > 0;
   const hasUpcomingInterviews = latestInterviews?.length! > 0;
-  console.log("User Interviews:", userInterviews);
-console.log("Latest Interviews:", latestInterviews);
+  //console.log("User Interviews:", userInterviews);
+//console.log("Latest Interviews:", latestInterviews);
+console.log("UserInterview",userInterviews)
+console.log("User ID:", user?.id); 
+
 
   return (
     <>
